@@ -1,58 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Pablo Garces' Personal Webpage | UNC Charlotte</title>
-		<link rel="stylesheet" href="styles.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pablo Garces' Homepage</title>
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<header>
-			<h1>ITSC-3135 | Pablo Garces</h1>
-			<p>This is my first personal webpage.</p>
-		</header>
-		<main>
-			<h2>Pablo Garces' Personal Webpage</h2>
-			
-			<img alt="tortoise" src="tortoise.jpg">
-			<p><i>with a giant tortoise</i></p>
-			
-			<h3>Personal Background</h3>
-			<p>I am from the Galapagos Islands in Ecuador. I came to Charlotte 2.5 years ago to study.</p>
+        <style>
+            body {
+                background-color: #DEE7E7; 
+                color: #4F646F; 
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                height: 100vh; 
+                display: flex;
+                flex-direction: column;
+            }
 
-			<h3>Professional Background</h3>
-			<p>I am a TA for ITSC 2181. I volunteered in the Galapagos National Park during the Summer, working with the Software Development team. I mostly worked on the responsiveness of a data recollection application and also compiled it on macOS to make it work on iOS devices.</p>
+            header {
+                background-color: #DEE7E7;
+                color: #535657; 
+                text-align: center;
+                flex-shrink: 0; 
+                border-bottom: 2px solid #535657;
+                box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+                position: fixed;
+                width: 100%;
+                padding: 0; 
+                padding-bottom: 10px;
+            }
 
-			<h3>Academic Background</h3>
-			<p>I am a Junior studying Computer Science at UNCC with a concentration in Software Engineering. I studied two years at CPCC and then transferred here.</p>
+            h1 {
+                font-size: 1.5em; 
+            }
 
-			<h3>Background in this Subject</h3>
-			<p>I have never worked with frontend development. I have always wanted to learn about it, so this will be the time.</p>
+            header p {
+                font-size: 1.4em; 
+                margin: 5px 0;
+            }
 
-			<h3>Primary Computer Platform</h3>
-			<p>Windows 11 (Always.).</p>
+            main {
+                margin: 80px 0 0 0;
+                text-align: center;
+                flex-grow: 1; 
+                overflow: hidden; 
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
 
-			<h3>Courses I'm Taking &amp Why</h3>
-			<ul>
-				<li><strong>ITSC3112</strong> - Design &amp Implementation of Object-oriented Systems: It is a project-based course, so it will be great to have something to add to my resume.</li>
-				<li><strong>ITIS3135</strong> - Web Application Design and Development: I am eager to learn about web development. I think it is very important to know how to use HTML, CSS, and JavaScript.</li>
-				<li><strong>ITSC3146</strong> - Intro Operating Systems &amp Networking: I have to take this course, but I also want to learn about Operating Systems because they are essential.</li>
-				<li><strong>ITSC3155</strong> - Software Engineering: This course is literally named after my major, “Software Engineering.” It’s a very important class to understand how the work environment operates.</li>
-				<li><strong>STAT2122</strong> - Intro to Probability &amp Statistics: I have to take this course in order to graduate. It is my last math-related course (hopefully).</li>
-			</ul>
+            main img {
+                max-width: 100%;
+                height: 600px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            }
 
-			<h3>Funny/Interesting Item to Remember Me By</h3>
-			<p>I’m from the Galapagos Islands, where Charles Darwin’s Theory of Evolution originates.</p>
+            main p {
+                padding: 0;
+                margin: 15px 0 0 0;
+                font-size: 1em; 
+            }
 
-			<h3>I'd also like to Share</h3>
-			<p>I like trying food from different countries.</p>
-		</main>
-		<footer>
-			<a target="_blank" href="https://webpages.charlotte.edu/pgarces">University Website</a> | 
-			<a target="_blank" href="https://github.com/PabloG55">GitHub.com</a> | 
-			<a target="_blank" href="https://pablog55.github.io">GitHub.io</a> | 
-			<a href="itis3135/">ITIS3135 Site</a>
-			<p>Page built by PG Prod.®</p>
+            footer {
+                background-color: #535657; 
+                color: #DEE7E7; 
+                text-align: center;
+                padding: 20px;
+                font-size: 1em; 
+                flex-shrink: 0; 
+            }
+
+            footer a {
+                color: #DEE7E7;
+                text-decoration: none;
+                margin: 0 5px;
+            }
+
+            footer a:hover {
+                text-decoration: underline;
+            }
+
+            footer p {
+                margin: 5px 0 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Pablo Garces' Homepage</h1>
+            <p>Welcome!</p>   
+        </header>
+        <main>
+            <img src="images/snorkel.jpg" alt="snorkel"> 
+            <p><i>snorkeling in the Galapagos Islands</i></p>        
+        </main>
+        <footer>
+            <a target="_blank" href="https://webpages.charlotte.edu/pgarces">University Website</a> | 
+            <a target="_blank" href="https://github.com/PabloG55">GitHub.com</a> | 
+            <a target="_blank" href="https://pablog55.github.io">GitHub.io</a> | 
+            <a target="_blank" href="www.linkedin.com/in/pablogarces5"> LinkedIn</a> |
+            <a href="itis3135/">ITIS3135 Site</a>
+			<p>Page built by PG ©2024</p>
 		</footer>
-	</body>
+    </body>
 </html>
