@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HTML Form Assignment</title>
+		<link rel="stylesheet" href="styles/styles.css">
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div data-include="components/header.html"></div>
+		<main>
+            <h2>HTML Form Assignment</h2>
+            <p id="description">Please fill out the form below with your information.</p>
+      
+            <form method="post" action="#" id="survey-form">
+              <fieldset>
+                <legend>Contact Information</legend>
+      
+                <label for="name" id="name-label">Name: 
+                  <input required id="name" name="name" type="text" placeholder="Your Name" size="30">
+                </label>
+      
+                <label for="phone" id="phone-label">Phone Number: 
+                  <input required id="phone" name="phone" type="tel" placeholder="111-111-1111" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" >
+                </label>
+      
+                <label for="email" id="email-label">Email: 
+                  <input required id="email" name="email" type="email" placeholder="email@example.com" size="30">
+                </label>
+              </fieldset>
+      
+              <fieldset>
+                <legend>Preferences</legend>
+      
+                <label for="services">Services Interested In: 
+                  <select id="services" name="services" required>
+                    <option value="" disabled selected>Select a service</option>
+                    <option value="donating">Donating</option>
+                    <option value="work">Working with us</option>
+                    <option value="volunteering">Volunteering</option>
+                  </select>
+                </label>
+      
+                <label>Preferred Contact Method:</label>
+                <label for="email-contact">
+                  <input value="email" id="email-contact" type="radio" name="contact-method" required> Email
+                </label>
+                <label for="phone-contact">
+                  <input value="phone" id="phone-contact" type="radio" name="contact-method"> Phone
+                </label>
+      
+                <label for="updates">Receive Updates:
+                  <input type="checkbox" id="updates" name="updates"> Sign me up!
+                </label>
+      
+                <label for="terms">
+                  <input type="checkbox" id="terms" name="terms" required> I accept the <a href="forms.html">terms and conditions</a>
+                </label>
+              </fieldset>
+      
+              <fieldset>
+                <legend>Additional Comments</legend>
+                <label for="comments">Comments:
+                  <textarea id="comments" name="comments" placeholder="Any additional comment..." rows="5"></textarea>
+                </label>
+              </fieldset>
+      
+              <fieldset>
+                <input id="reset" type="reset" value="Reset">
+                <input id="submit" type="submit" value="Submit">
+              </fieldset>
+            </form>
+        </main>
+        <div data-include="components/footer.html"></div>
+		<script src="scripts/HTMLInclude.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HTML Tables Assignment</title>
+		<link rel="stylesheet" href="styles/styles.css">
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div data-include="components/header.html"></div>
+		<main>
+            <h2>HTML Tables Assignment</h2>
+            
+            <h3>My Tabular Data</h3>
+            <ol>
+                <li>Camilo Cruz, ccruz@pgt.org, $120,000</li>
+                <li>Cayetano Plaza, cplaza@pgt.org, $120,000</li>
+                <li>Kamila Bohorquez, kbohorquez@pgt.org, $120,000</li>
+                <li>Daniel Mera, dmera@pgt.org, $100,000</li>
+                <li>Jordano Saa, jsaa@pgt.org, $100,000</li>
+                <li>Jordano Saa, jsaa@pgt.org, $100,000</li>
+                <li>Gabriel Chalen, gchalen@pgt.org, $80,000</li>
+                <li>Shaiel Rendon, srendon@pgt.org, $80,000</li>
+                <li>Fabiana Oviedo, foviedo@pgt.org, $80,000</li>
+            </ol>
+            
+            <h3>Employee Data in Simple Table</h3>
+            <table>
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Salary</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Camilo Cruz</td>
+                        <td><a href="mailto:ccruz@pgt.org">ccruz@pgt.org</a></td>
+                        <td>$120,000</td>
+                    </tr>
+                    <tr>
+                        <td>Cayetano Plaza</td>
+                        <td><a href="mailto:cplaza@pgt.org">cplaza@pgt.org</a></td>
+                        <td>$120,000</td>
+                    </tr>
+                    <tr>
+                        <td>Kamila Bohorquez</td>
+                        <td><a href="mailto:kbohorquez@pgt.org">kbohorquez@pgt.org</a></td>
+                        <td>$120,000</td>
+                    </tr>
+                    <tr>
+                        <td>Renato Astudillo</td>
+                        <td><a href="mailto:rastudillo@pgt.org">rastudillo@pgt.org</a></td>
+                        <td>$100,000</td>
+                    </tr>
+                    <tr>
+                        <td>Jordano Saa</td>
+                        <td><a href="mailto:jsaa@pgt.org">jsaa@pgt.org</a></td>
+                        <td>$100,000</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Mera</td>
+                        <td><a href="mailto:dmera@pgt.org">dmera@pgt.org</a></td>
+                        <td>$100,000</td>
+                    </tr>
+                    <tr>
+                        <td>Gabriel Chalen</td>
+                        <td><a href="mailto:gchalen@pgt.org">gchalen@pgt.org</a></td>
+                        <td>$80,000</td>
+                    </tr>
+                    <tr>
+                        <td>Shaiel Rendon</td>
+                        <td><a href="mailto:srendon@pgt.org">srendon@pgt.org</a></td>
+                        <td>$80,000</td>
+                    </tr>
+                    <tr>
+                        <td>Fabiana Oviedo</td>
+                        <td><a href="mailto:foviedo@pgt.org">foviedo@pgt.org</a></td>
+                        <td>$80,000</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Employee Data in Complex Table</h3>
+            <figure>
+                <figcaption>Employee Information</figcaption>
+                <table>
+                    <thead>
+                    <tr>
+                        <th id="department">Department</th>
+                        <th id="name">Name</th>
+                        <th id="email">Email</th>
+                        <th id="salary">Salary</th>
+                        <th id="monthly">Monthly Salary</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td rowspan="3" class="line">Sales</td>
+                        <td headers="name">Camilo Cruz</td>
+                        <td headers="email"><a href="mailto:ccruz@pgt.org">ccruz@pgt.org</a></td>
+                        <td headers="salary">$120,000</td>
+                        <td headers="monthly">$10,000</td>
+                    </tr>
+                    <tr>
+                        <td headers="name">Cayetano Plaza</td>
+                        <td headers="email"><a href="mailto:cplaza@pgt.org">cplaza@pgt.org</a></td>
+                        <td headers="salary">$120,000</td>
+                        <td headers="monthly">$10,000</td>
+                    </tr>
+                    <tr>
+                        <td headers="name">Kamila Bohorquez</td>
+                        <td headers="email"><a href="mailto:kbohorquez@pgt.org">kbohorquez@pgt.org</a></td>
+                        <td headers="salary">$120,000</td>
+                        <td headers="monthly">$10,000</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="line">Marketing</td>
+                        <td headers="name">Gabriel Chalen</td>
+                        <td headers="email"><a href="mailto:gchalen@pgt.org">gchalen@pgt.org</a></td>
+                        <td headers="salary">$80,000</td>
+                        <td headers="monthly">$6,666</td>
+                    </tr>
+                    <tr>
+                        <td headers="name">Shaiel Rendon</td>
+                        <td headers="email"><a href="mailto:srendon@pgt.org">srendon@pgt.org</a></td>
+                        <td headers="salary">$80,000</td>
+                        <td headers="monthly">$6,666</td>
+                    </tr>
+                    <tr>
+                        <td headers="name">Fabiana Oviedo</td>
+                        <td headers="email"><a href="mailto:foviedo@pgt.org">foviedo@pgt.org</a></td>
+                        <td headers="salary">$80,000</td>
+                        <td headers="monthly">$6,666</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="line">Development</td>
+                        <td headers="name">Jordano Saa</td>
+                        <td headers="email"><a href="mailto:jsaa@pgt.org">jsaa@pgt.org</a></td>
+                        <td headers="salary">$100,000</td>
+                        <td headers="monthly">$8,333</td>
+                    </tr>   
+                    <tr>
+                        <td headers="name">Renato Astudillo</td>
+                        <td headers="email"><a href="mailto:rastudillo@pgt.org">rastudillo@pgt.org</a></td>
+                        <td headers="salary">$100,000</td>
+                        <td headers="monthly">$8,333</td>
+                    </tr>
+                    <tr>
+                        <td headers="name">Daniel Mera</td>
+                        <td headers="email"><a href="mailto:dmera@pgt.org">dmera@pgt.org</a></td>
+                        <td headers="salary">$100,000</td>
+                        <td headers="monthly">$8,333</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Total Salaries</th>
+                        <td colspan="2">$700,000</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </figure>   
+        </main>
+        <div data-include="components/footer.html"></div>
+		<script src="scripts/HTMLInclude.min.js"></script>
+	</body>
+</html>
