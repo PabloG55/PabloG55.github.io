@@ -39,6 +39,7 @@
             }
 
             main {
+                padding-top: 100px;
                 margin: 100px 0 0 0;
                 text-align: center;
                 flex-grow: 1; 
@@ -47,6 +48,9 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                width: 90%; 
+                max-width: 1200px; 
+                margin: 0 auto; 
             }
 
             main img {
@@ -83,6 +87,26 @@
 
             footer p {
                 margin: 5px 0 0 0;
+            }
+
+            /* MEDIA QUERIES */
+
+            @media screen and (min-width: 1201px) {
+                main {
+                    width: 85%; 
+                }
+            }
+
+            @media screen and (min-width: 601px) and (max-width: 1200px) {
+                main {
+                    width: 90%;
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+                main {
+                    width: 95%;
+                }
             }
         </style>
     </head>
