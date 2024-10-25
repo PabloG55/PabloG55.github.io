@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pablo Garces | Philanthropic Galapagos Tortoise | First Scripts</title>
+		<link rel="stylesheet" href="styles/styles.css">
+		<script src="scripts/defaultscripts.js" defer></script> 
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div data-include="components/header.html"></div>
+
+		<main>
+			<h2>First Scripts Assignment</h2>
+			
+			
+			<h3 id="current-date-time"></h3>
+
+			
+			<form id="user-form">
+				<label for="userName">Enter your name:</label>
+				<input type="text" id="user-name"><br><br>
+
+				<label for="userMood">How are you feeling?</label>
+				<input type="text" id="user-mood"><br><br>
+
+				<label for="favoriteNumber">Enter your favorite number (0-10):</label>
+				<input type="number" id="favorite-number" min="0" max="10"><br><br>
+
+				<button type="button" id="submit-form-btn">Submit</button>
+			</form>
+
+			
+			<h3 id="greetingMessage"></h3>
+
+			
+			<h3>Philanthropic Galapagos Tortoise Functions:</h3>
+			<button id="provide-factBtn">Provide a Tortoise Fact</button>
+			<button id="calculate-age-btn">Calculate Tortoise Age</button>
+			<button id="get-speed-btn">Tortoise Speed</button>
+			<button id="random-behavior-btn">Random Tortoise Behavior</button>
+			<button id="offer-food-btn">Offer Tortoise Food</button>
+		</main>
+
+		<div data-include="components/footer.html"></div>
+        <script src="scripts/HTMLInclude.min.js"></script>
+	</body>
+</html>

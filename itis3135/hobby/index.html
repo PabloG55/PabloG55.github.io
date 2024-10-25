@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Garces | Swimming Enthusiast | Hobby Website</title>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif; 
+            line-height: 1.6; 
+            background-color: #f9f9f9; 
+            color: #333; 
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #007BFF; 
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2em; 
+        }
+
+        p em {
+            font-style: italic;
+            font-size: 1.2em; 
+        }
+
+        nav {
+            margin: 10px 0;
+        }
+
+        nav a {
+            color: white; 
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease; 
+        }
+
+        nav a:hover {
+            color: #FFD700; 
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1; 
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        section {
+            background-color: #ffffff; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+            padding: 20px;
+            margin-bottom: 20px; 
+        }
+
+        h2 {
+            color: #007BFF; 
+            margin-bottom: 15px; 
+        }
+
+        img {
+            max-width: 100%; 
+            border-radius: 8px; 
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            padding: 10px 0;
+            position: relative; 
+            width: 100%; 
+            bottom: 0; 
+        }
+
+        
+        footer a {
+            color: #007BFF;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            header, footer {
+                text-align: center; 
+            }
+
+            nav a {
+                display: block; 
+                margin: 10px 0; 
+            }
+        }
+
+        section {
+            margin: 10px;
+            display: none; 
+        }
+
+        .active {
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pablo Garces | Swimming Enthusiast | ITIS-3135</h1>
+        <p><em>Making waves and reaching new depths!</em></p>
+        <nav>
+            <a href="#" data-section="who">Who I Am</a> | 
+            <a href="#" data-section="what">What is Swimming?</a> | 
+            <a href="#" data-section="when">Best Times to Swim</a> | 
+            <a href="#" data-section="where">Best Locations</a> | 
+            <a href="#" data-section="how">How to Swim</a> | 
+            <a href="#" data-section="why">Why I Swim</a> | 
+            <a href="#" data-section="ai">AI Prompts</a>
+        </nav>
+    </header>       
+    <main>	
+        <section id="who" class="active">
+            <h2>Who I Am</h2>
+            <img alt="swimming" src="images/swimming.jpg">
+            <p><i>Photo of me swimming at a local competition</i></p>
+            <ul>
+                <li>
+                    <strong>Personal Background:</strong>
+                    I grew up near the ocean, which sparked my love for swimming at an early age. I have been swimming competitively for over 5 years now, focusing on freestyle and butterfly strokes.
+                </li>
+                <li>
+                    <strong>Professional Background:</strong>
+                    In addition to competing, I volunteer as a coach for a local swimming team. I help young swimmers improve their technique and prepare for competitions. It’s been a rewarding experience to see them progress.
+                </li>
+                <li>
+                    <strong>Background in Swimming:</strong>
+                    I've participated in several regional competitions and have been training rigorously to improve my times in the 50y freestyle and butterfly. My goal is to compete in national-level events in the future.
+                </li>
+                <li>
+                    <strong>Training &amp Goals:</strong>
+                    I swim six days a week, focusing on technique, endurance, and strength. My main goal is to break the 26-second mark in the 50y freestyle this year.
+                </li>
+            </ul>
+        </section>
+
+        <section id="what">
+            <h2>What is Swimming?</h2>
+            <img alt="what is swimming" src="images/what_is_swimming.jpg">
+            <p><i>A brief overview of swimming as a sport.</i></p>
+            <p>Swimming is a versatile and competitive sport that involves moving through water using various strokes.</p>
+            <p>It promotes physical fitness, endurance, and coordination.</p>
+        </section>
+
+        <section id="when">
+            <h2>Best Times to Swim</h2>
+            <img alt="best times" src="images/best_times.jpg">
+            <p><i>Swimming during the best times of day.</i></p>
+            <p>The best times to swim are typically early in the morning or late in the evening when the sun is not too harsh.</p>
+            <p>Swimming during these times can enhance performance and reduce fatigue.</p>
+        </section>
+
+        <section id="where">
+            <h2>Best Locations</h2>
+            <img alt="best locations" src="images/best_locations.jpg">
+            <p><i>Popular swimming locations.</i></p>
+            <p>Some of the best swimming locations include public pools, lakes, and oceans that are safe and have clean water.</p>
+            <p>Each location offers unique experiences for swimmers of all levels.</p>
+        </section>
+
+        <section id="how">
+            <h2>How to Swim</h2>
+            <img alt="how to swim" src="images/how_to_swim.jpg">
+            <p><i>Techniques for swimming effectively.</i></p>
+            <p>Proper swimming techniques include breathing correctly, using the right stroke, and maintaining a good body position.</p>
+            <p>It's important to practice regularly and consider professional coaching for improvement.</p>
+        </section>
+
+        <section id="why">
+            <h2>Why I Swim</h2>
+            <img alt="why I swim" src="images/why_i_swim.jpg">
+            <p><i>Reasons for swimming.</i></p>
+            <p>Swimming is not just a sport for me; it's a passion that helps me stay fit and relax.</p>
+            <p>I find joy in the water and the thrill of competition.</p>
+        </section>
+
+        <section id="ai">
+            <h2>AI Prompts</h2>
+            <p><i>Prompts used to generate content for this page.</i></p>
+            <ul>
+                <li>What is swimming and why is it a great activity?</li>
+                <li>List the best times to swim and why.</li>
+                <li>What are some techniques for improving swimming skills?</li>
+                <li>Why is swimming an important skill to have?</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <p>Designed by <a href="https://pgdesignsltd.com/index.html">P.G. Designs Limited</a> ©2024.</p>
+        </nav>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('main section');
+            sections.forEach((section) => section.classList.remove('active'));
+
+            const activeSection = document.getElementById(sectionId);
+            if (activeSection) activeSection.classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('who');
+            
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach((link) => {
+                link.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const sectionId = event.target.getAttribute('data-section');
+                    showSection(sectionId);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
