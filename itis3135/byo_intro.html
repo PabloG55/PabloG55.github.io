@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Garces | Philanthropic Galapagos Tortoise | Introduction</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/survey.js" defer></script>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    
+    <main>
+        
+        <section id="form-section">
+            <h3>Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+            <form id="intro-form" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="mascot">Mascot:</label>
+                <input type="text" id="mascot" name="mascot" required>
+                
+                <label for="image">Image (PNG or JPG):</label>
+                <input type="file" id="image" name="image" accept=".png, .jpg" required>
+                
+                <label for="caption">Image Caption:</label>
+                <input type="text" id="caption" name="caption" required>
+                
+                <label for="personal-background">Personal Background:</label>
+                <input type="text" id="personal-background" name="personal-background" required>
+
+                <label for="professional-background">Professional Background:</label>
+                <input type="text" id="professional-background" name="professional-background" required>
+
+                <label for="academic-background">Academic Background:</label>
+                <input type="text" id="academic-background" name="academic-background" required>
+
+                <label for="web-development-background">Background in Web Development:</label>
+                <input type="text" id="web-development-background" name="web-development-background" required>
+                
+                <label for="platform">Primary Computer Platform:</label>
+                <input type="text" id="platform" name="platform" required>
+                
+                <label>Courses Currently Taking:</label>
+                <div id="course-container">
+                    <button type="button" id="add-course-btn">Add Course</button>
+                </div>
+                
+                <label for="funny-thing">Funny Thing?</label>
+                <input type="text" id="funny-thing" name="funny-thing">
+
+                <label for="anything-else">Anything Else?</label>
+                <input type="text" id="anything-else" name="anything-else">
+                
+                <label>
+                    <input type="checkbox" id="agreement" required>
+                    I understand that what is on this page is not password protected...
+                </label>
+                
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+        <section id="output-container"></section>
+    </main>
+
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>

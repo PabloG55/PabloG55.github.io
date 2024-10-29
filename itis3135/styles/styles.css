@@ -1,7 +1,7 @@
 body {
    background-color: #FAFAFA; 
    font-family: Arial, sans-serif;
-   color: #686963; 
+   color: #5E5F59; 
    margin: 0;
    padding: 0;
    display: flex;
@@ -11,7 +11,7 @@ body {
 
 header {
    background-color: #FAFAFA;
-   color: #686963; 
+   color: #5E5F59; 
    text-align: center;
    border-bottom: 2px solid #535657;
    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
@@ -29,7 +29,7 @@ h2 span {
 
 header a {
    padding: 0 10px 10px 10px;
-   color: #6B8235;
+   color: #1C519B;
    text-decoration: none;
    font-size: 1.2em; 
    margin: 5px 0;
@@ -104,7 +104,7 @@ footer p {
 
 a {
    text-decoration: none;
-   color: #8FAE47;
+   color: #1C519B;
 
 }
 
@@ -219,7 +219,7 @@ input[type="checkbox"] {
 
 input[type="reset"],
 input[type="submit"] {
-   background-color: #72A1E5;
+   background-color: #1C519B;
    color: #FAFAFA; 
    border: none;
    border-radius: 5px;
@@ -231,7 +231,7 @@ input[type="submit"] {
 
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-   background-color: #5B8BCC;
+   background-color: #2364bf;
 }
 
 .site-map {
@@ -239,6 +239,44 @@ input[type="submit"]:hover {
    height: auto; 
    margin-bottom: 15px;
 }
+
+button {
+   background-color: #1C519B;
+   color: #FAFAFA; 
+   border: none;
+   border-radius: 5px;
+   padding: 10px 15px;
+   font-size: 1em; 
+   cursor: pointer;
+   margin: 10px 5px;
+}
+
+button:hover {
+   background-color: #2364bf;
+}
+
+h2, h3 {
+   text-align: center;
+}
+
+#form-section {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+#output-container , p{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+}
+
+#output-container img{
+   width: 450px; 
+}
+
 
 /* MEDIA QUERIES */
 

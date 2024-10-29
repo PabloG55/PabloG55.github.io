@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pablo Garces | Swimming Enthusiast | Hobby Website</title>
+    <title>Swimming</title>
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
     <style>
         html, body {
@@ -71,13 +71,30 @@
         }
 
         h2 {
+            text-align: center;
             color: #007BFF; 
             margin-bottom: 15px; 
         }
 
-        img {
-            max-width: 100%; 
-            border-radius: 8px; 
+        figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        figure img{
+            width: 400px; 
+            height: auto; 
+            margin: 0 auto; 
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+
+        figure figcaption {
+            padding-top: 10px;
         }
 
         footer {
@@ -122,8 +139,7 @@
 </head>
 <body>
     <header>
-        <h1>Pablo Garces | Swimming Enthusiast | ITIS-3135</h1>
-        <p><em>Making waves and reaching new depths!</em></p>
+        <h1>Swimming</h1>
         <nav>
             <a href="#" data-section="who">Who I Am</a> | 
             <a href="#" data-section="what">What is Swimming?</a> | 
@@ -137,82 +153,133 @@
     <main>	
         <section id="who" class="active">
             <h2>Who I Am</h2>
-            <img alt="swimming" src="images/swimming.jpg">
-            <p><i>Photo of me swimming at a local competition</i></p>
+            <figure>
+                <img alt="best times" src="images/triathlon.jpg">
+                <figcaption><i>Me in a triathlon in the Galapagos Islands.</i></figcaption>
+            </figure>
             <ul>
                 <li>
                     <strong>Personal Background:</strong>
-                    I grew up near the ocean, which sparked my love for swimming at an early age. I have been swimming competitively for over 5 years now, focusing on freestyle and butterfly strokes.
-                </li>
-                <li>
-                    <strong>Professional Background:</strong>
-                    In addition to competing, I volunteer as a coach for a local swimming team. I help young swimmers improve their technique and prepare for competitions. It’s been a rewarding experience to see them progress.
+                    My name is Pablo Garces. I grew up near the ocean, which sparked my love for swimming at an early age. I have been swimming since senior year of high school, focusing on freestyle and butterfly strokes.
                 </li>
                 <li>
                     <strong>Background in Swimming:</strong>
-                    I've participated in several regional competitions and have been training rigorously to improve my times in the 50y freestyle and butterfly. My goal is to compete in national-level events in the future.
+                    I've participated in some competitions and have been training rigorously to improve my times in the 50y freestyle and butterfly. My goal is to compete in national-level events in the future.
                 </li>
                 <li>
                     <strong>Training &amp Goals:</strong>
-                    I swim six days a week, focusing on technique, endurance, and strength. My main goal is to break the 26-second mark in the 50y freestyle this year.
+                    I swim three days a week, focusing on technique and endurance. In addition, I do dryland training two days a week to improve my strength. My main goals are to break the 26-second mark in the 50y freestyle and achieve the nationals cut for the 50 fly.
                 </li>
             </ul>
+            <figure>
+                <video width="640" height="360" controls>
+                    <source src="images/50fly.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <figcaption><i>Me in line 7 during 50 fly event</i></figcaption>
+            </figure>
         </section>
 
         <section id="what">
             <h2>What is Swimming?</h2>
-            <img alt="what is swimming" src="images/what_is_swimming.jpg">
-            <p><i>A brief overview of swimming as a sport.</i></p>
-            <p>Swimming is a versatile and competitive sport that involves moving through water using various strokes.</p>
-            <p>It promotes physical fitness, endurance, and coordination.</p>
+            <figure>
+                <img alt="what is swimming" src="images/what.webp">
+                <figcaption><i>Create an image of swimming.</i></figcaption>
+            </figure>
+            
+            <p>Swimming is a water-based sport and activity where individuals use various strokes to propel themselves through the water. It can be enjoyed recreationally, as a competitive sport, or even for therapeutic purposes. There are four main strokes used in swimming:</p>
+            <ul>
+                <li><strong>Freestyle</strong>: The fastest and most popular stroke, where swimmers alternate their arms in an overhand motion while kicking with a flutter kick.</li>
+                <li><strong>Backstroke</strong>: Swimmers lie on their back, using an alternating arm movement and a flutter kick.</li>
+                <li><strong>Breaststroke</strong>: Both arms move in a half-circle motion simultaneously, paired with a frog-like kick.</li>
+                <li><strong>Butterfly</strong>: Swimmers move their arms together in a circular motion and use a dolphin kick, creating a wave-like body movement.</li>
+            </ul>
+            <p>Competitive swimming involves racing these strokes over various distances, with popular events including the 50m, 100m, and 200m sprints, as well as longer distances. Competitive swimmers train to improve endurance, strength, and technique, aiming to increase their speed and efficiency in the water.</p>
         </section>
+        
 
         <section id="when">
             <h2>Best Times to Swim</h2>
-            <img alt="best times" src="images/best_times.jpg">
-            <p><i>Swimming during the best times of day.</i></p>
-            <p>The best times to swim are typically early in the morning or late in the evening when the sun is not too harsh.</p>
-            <p>Swimming during these times can enhance performance and reduce fatigue.</p>
+            <figure>
+                <img alt="best times" src="images/when.webp">
+                <figcaption><i>Create an image of a person swimming with harsh sun.</i></figcaption>
+            </figure>
+            <p>The best time to swim really depends on the type of swimming you’re doing and your goals. If you’re training for a triathlon, early morning swims are ideal to avoid the intense sun and get your body accustomed to early activity, which can be helpful for race day.</p>
+            <p>For pool training, though, you have more flexibility—any time the pool is open works, so you can choose what fits your schedule best.</p>
+            <p>Personally, I train on Mondays, Tuesdays, and Thursdays from 5:45 to 7:15, which gives me a consistent routine that fits my school schedule.</p>
+            <figure>
+                <img alt="swimming" src="images/team.jpg">
+                <figcaption><i>CLT Swimming Club Team</i></figcaption>
+            </figure>
         </section>
 
         <section id="where">
             <h2>Best Locations</h2>
-            <img alt="best locations" src="images/best_locations.jpg">
-            <p><i>Popular swimming locations.</i></p>
-            <p>Some of the best swimming locations include public pools, lakes, and oceans that are safe and have clean water.</p>
-            <p>Each location offers unique experiences for swimmers of all levels.</p>
+            <figure>
+                <img alt="where" src="images/UREC_4.jpg">
+                <figcaption><i>UREC Indoor Pool</i></figcaption>
+            </figure>
+            <p>Some of the best swimming locations include public pools, lakes, and oceans that are safe and have clean water. Each location offers unique experiences for swimmers of all levels.</p>
+            <p>For UNCC students, the best locations are:</p>
+            <ul>
+                <li><strong>UREC Pool:</strong> Open from 6:00 AM to 10:00 PM, ideal for personal training and casual swimming.</li>
+                <li><strong>Belk Gym:</strong> If you are in the swimming club, all practices are held here.</li>
+            </ul>
+            <figure>
+                <img alt="where" src="images/Belk.webp">
+                <figcaption><i>Belk Gym Pool</i></figcaption>
+            </figure>
         </section>
 
         <section id="how">
             <h2>How to Swim</h2>
-            <img alt="how to swim" src="images/how_to_swim.jpg">
-            <p><i>Techniques for swimming effectively.</i></p>
-            <p>Proper swimming techniques include breathing correctly, using the right stroke, and maintaining a good body position.</p>
-            <p>It's important to practice regularly and consider professional coaching for improvement.</p>
+            <figure>
+                <img src="images/how.jpg" alt="how">
+                <figcaption><i>Image by Guduru Ajay</i></figcaption>
+            </figure>
+            <p>Proper swimming techniques include:</p>
+            <ul>
+                <li><strong>Breathing Correctly:</strong> Proper breathing is essential for maintaining rhythm and conserving energy. Try to breathe in through your mouth and out through your nose while turning your head to the side. Practicing breathing drills can help you find a comfortable rhythm.</li>
+                <li><strong>Using the Right Stroke:</strong> Different strokes—freestyle, breaststroke, backstroke, and butterfly—require distinct techniques. Start by learning one stroke at a time, focusing on body mechanics, arm movements, and kicking techniques specific to each stroke.</li>
+                <li><strong>Maintaining Good Body Position:</strong> Keeping your body streamlined helps reduce drag. Try to keep your head aligned with your body, looking down or slightly forward, and engage your core to stay balanced in the water.</li>
+                <li><strong>Improving Kick Efficiency:</strong> Your legs should provide a steady kick without excessive splash. Small, consistent kicks from your hips, rather than from your knees, will propel you forward without wasting energy.</li>
+                <li><strong>Focusing on Arm Technique:</strong> Ensure your arms are extending fully and pulling back effectively to maximize each stroke. Proper hand entry and a high elbow position during freestyle can increase your speed and power.</li>
+            </ul>
+            <p>It's important to practice regularly to build endurance and refine your technique. Consider working with a coach or joining a swim class for personalized feedback and guidance.</p>
+            
+            <h3>Watch This Video for More Tips</h3>
+            <figure>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/ignysw4pFO0?si=k9hOd-DN2USI5l7O" title="How to Swim - Techniques and Tips" frameborder="0" allowfullscreen></iframe>
+            </figure>
         </section>
 
         <section id="why">
             <h2>Why I Swim</h2>
-            <img alt="why I swim" src="images/why_i_swim.jpg">
-            <p><i>Reasons for swimming.</i></p>
-            <p>Swimming is not just a sport for me; it's a passion that helps me stay fit and relax.</p>
-            <p>I find joy in the water and the thrill of competition.</p>
+            <figure>
+                <img alt="why I swim" src="images/why.jpg">
+                <figcaption>Me with black t-shirt in the Gold Rush invitational</figcaption>
+            </figure>
+            <p>Swimming is not just a sport for me; it's a passion that helps me stay fit and relax. I find joy in the water and the thrill of competition. Additionally, I love getting to know people from different backgrounds through the swimming community.</p>
+            <p>Traveling to various places to compete adds an exciting dimension to the sport. Each event not only challenges my skills but also allows me to explore new locations and create lasting memories with fellow swimmers. It’s incredibly fun and rewarding!</p>
+            <figure>
+                <img alt="why I swim" src="images/georgia.jpg">
+                <figcaption>With some friends in Georgia Tech Invitational</figcaption>
+            </figure>
         </section>
 
         <section id="ai">
             <h2>AI Prompts</h2>
             <p><i>Prompts used to generate content for this page.</i></p>
             <ul>
-                <li>What is swimming and why is it a great activity?</li>
-                <li>List the best times to swim and why.</li>
-                <li>What are some techniques for improving swimming skills?</li>
-                <li>Why is swimming an important skill to have?</li>
+                <li>Read this instructions: *Instructions*</li>
+                <li>Use this template to do it: *One of my previous index.html*</li>
+                <li>How do I show only an specific section with javascript</li>
             </ul>
         </section>
     </main>
     <footer>
         <nav>
-            <p>Designed by <a href="https://pgdesignsltd.com/index.html">P.G. Designs Limited</a> ©2024.</p>
+            <p>Designed by <a target="_blank" href="../pgdesignsltd.com/index.html">P.G. Designs Limited</a> ©2024.</p>
         </nav>
     </footer>
 
@@ -220,23 +287,26 @@
         function showSection(sectionId) {
             const sections = document.querySelectorAll('main section');
             sections.forEach((section) => section.classList.remove('active'));
-
+    
             const activeSection = document.getElementById(sectionId);
             if (activeSection) activeSection.classList.add('active');
         }
-
+    
         document.addEventListener('DOMContentLoaded', () => {
             showSection('who');
-            
+    
             const navLinks = document.querySelectorAll('nav a');
             navLinks.forEach((link) => {
                 link.addEventListener('click', (event) => {
-                    event.preventDefault();
                     const sectionId = event.target.getAttribute('data-section');
-                    showSection(sectionId);
+                    if (sectionId) {
+                        event.preventDefault();
+                        showSection(sectionId);
+                    }
                 });
             });
         });
     </script>
+    
 </body>
 </html>
