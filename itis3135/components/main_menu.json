@@ -1,0 +1,14 @@
+[
+    {"name": "Home", "url": "index.html"},
+    {"name": "Introduction", "url": "introduction.html"},
+    {"name": "Organization", "url": "about.html"},
+    {"name": "Website Evaluations", "url": "website_evaluations.html"},
+    {"name": "Tables", "url": "tables.html"},
+    {"name": "Form", "url": "forms.html"},
+    {"name": "Project Overview", "url": "project_overview.html"},
+    {"name": "Firstscripts", "url": "firstscripts.html"},
+    {"name": "BYO Intro", "url": "byo_intro.html"},
+    {"name": "Interactive Drawing", "url": "drawing.html"},
+    {"name": "Natural Galapagos", "url": "bussiness/index.html"},
+    {"name": "Contract", "url": "contract.html"}
+]
