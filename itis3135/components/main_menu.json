@@ -9,6 +9,9 @@
     {"name": "Firstscripts", "url": "firstscripts.html"},
     {"name": "BYO Intro", "url": "byo_intro.html"},
     {"name": "Interactive Drawing", "url": "drawing.html"},
-    {"name": "Natural Galapagos", "url": "bussiness/index.html"},
+    {"name": "Slideshow Gallery", "url": "slideshow.html"},
+    {"name": "Peer Review 1", "url": "review1.html"},
+    {"name": "Peer Review 2", "url": "review2.html"},
+    {"name": "Client Project", "url": "bussiness/index.html"},
     {"name": "Contract", "url": "contract.html"}
 ]

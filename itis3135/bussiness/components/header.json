@@ -1,0 +1,13 @@
+{
+    "logo": {
+        "src": "images/logo.png",
+        "alt": "Logo"
+    },
+    "menuItems": [
+        {"name": "Home", "url": "index.html"},
+        {"name": "About Us", "url": "about.html"},
+        {"name": "Products", "url": "products.html"},
+        {"name": "Gallery", "url": "gallery.html"},
+        {"name": "Contact Us", "url": "contact.html"}
+    ]
+}
